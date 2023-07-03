@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 15vw;
+    margin: 30px auto;
+    /* border: 2px solid black; */
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation: 500ms ease-in infinite alternate ball;
+    /* animation-delay: 10s; */
+}
+/* div{
+    animation: 100ms linear infinite alternate rotate;
+
+} */
+@keyframes ball {
+    100%{
+        transform: translateY(520px);
+        /* transform: rotateZ('360deg'); */
+        background-color: aqua;
+    }
+    /* 100%{
+        transform: rotateZ(360deg);
+    } */
+    
+}
+/* @keyframes rotate {
+    100%{
+        transform: rotateZ(360deg);
+    }
+    
+} */
